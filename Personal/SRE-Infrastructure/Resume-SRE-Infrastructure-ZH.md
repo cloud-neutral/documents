@@ -5,7 +5,7 @@
 - **姓名**: 潘海涛
 - **位置**: 上海
 - **当前状态**: 离职
-- **电话**: 
+- **电话**: 13691175694
 - **邮箱**: haitaopanhq@gmail.com
 
 ## 期望职位
@@ -122,7 +122,7 @@
 
 ## 个人开源与社区项目
 
-** https://github.com/CloudNativeSuite **
+** https://github.com/cloud-neutral-toolkit **
 
 - **XControl**：Web 控制台 + RAG 智能助手
 - **XCloudFlow**：多云 IaC + GitOps 编排框架

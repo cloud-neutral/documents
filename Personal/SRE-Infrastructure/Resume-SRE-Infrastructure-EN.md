@@ -4,7 +4,7 @@
 - Name: Pan Haitao
 - Location: Shanghai, China
 - Status: Open to opportunities
-- Phone: +86 136-9117-5694
+- Phone: +86 136 9117 5694
 - Email: haitaopanhq@gmail.com
 - LinkedIn: www.linkedin.com/in/haitaopan
 - Languages: Chinese (native), English (conversational)
@@ -125,7 +125,7 @@ Gained comprehensive experience from traditional Linux server operations to mode
 | 2006–2010 | Bachelor | Changchun Institute of Technology | Electrical Engineering & Automation |
 
 ## Open-Source & Community Projects
-**https://github.com/CloudNativeSuite**
+https://github.com/cloud-neutral-toolkit
 
 - **XControl**: Web console with an integrated RAG-based intelligent assistant
 - **XCloudFlow**: Multi-cloud IaC and GitOps orchestration framework
