@@ -65,7 +65,7 @@ Experienced in designing consistent, scalable hybrid-cloud environments that bal
 
 ## Work Experience
 
-### Beijing Yunshan Century Network Technology Co., Ltd. — After-Sales Service Engineer (2024.11 – 2025.09)
+### Beijing Yunshan Century Network Technology Co., Ltd. — Technical Support Engineer (2024.11 – 2025.09)
 
 - Tech Stack: Linux, Kubernetes, DeepFlow, NPM & APM, eBPF, Hybrid Cloud, AI Agents & GPU Monitoring
 - Responsibilities:
