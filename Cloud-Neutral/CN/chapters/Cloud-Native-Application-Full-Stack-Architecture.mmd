@@ -1,0 +1,80 @@
+flowchart TB
+    %% =========================
+    %% 请求入口
+    %% =========================
+    U[用户 / 业务请求]
+    E[入口层<br/>LB / Ingress / API Gateway]
+
+    U --> E
+
+    %% =========================
+    %% 应用运行时
+    %% =========================
+    S[Service Runtime<br/>单体 / 微服务 / 任务 / Serverless]
+
+    E --> S
+
+    %% =========================
+    %% 事务与对象存储
+    %% =========================
+    OLTP[(OLTP<br/>Postgres)]
+    OBJ[(Object Store<br/>S3 API / MinIO)]
+
+    S --> OLTP
+    S --> OBJ
+
+    %% =========================
+    %% 事件与流处理
+    %% =========================
+    BUS[Event Bus<br/>Kafka / Redpanda]
+    ST[Streaming / Consumers<br/>实时计算 / 索引 / 特征 / ETL]
+
+    S --> BUS
+    BUS --> ST
+
+    %% =========================
+    %% 分析与查询
+    %% =========================
+    OLAP[(OLAP<br/>ClickHouse)]
+    Q[Query Layer<br/>Trino / 统一 SQL]
+
+    ST --> OLAP
+    ST --> OBJ
+
+    OLTP --> Q
+    OBJ --> Q
+    OLAP --> Q
+
+    %% =========================
+    %% AI Runtime
+    %% =========================
+    AI[AI Runtime<br/>Embedding / vLLM / Ray / MLflow]
+
+    S --> AI
+    Q --> AI
+    AI --> OBJ
+
+    %% =========================
+    %% 控制与治理平面
+    %% =========================
+    subgraph Ctrl[控制与治理贯穿所有平面]
+        IaC[IaC / 环境复制]
+        Rel[发布 / 回滚 / 演练]
+        Pol[身份与策略]
+        Cost[成本护栏]
+        Obs[观测与审计]
+        SLO[SLO / 告警 / 容量]
+
+        IaC --- Rel
+        Pol --- Cost
+        Obs --- SLO
+    end
+
+    %% 控制面绑定关系
+    E --- Ctrl
+    S --- Ctrl
+    OLTP --- Ctrl
+    OLAP --- Ctrl
+    OBJ --- Ctrl
+    BUS --- Ctrl
+    AI --- Ctrl

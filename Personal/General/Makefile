@@ -12,7 +12,7 @@ ifeq ($(OS),Linux)
     RM_CMD    := rm -rvf
 else ifeq ($(OS),Darwin)
     MAIN_FONT := Times New Roman
-    CJK_FONT  := PingFang SC
+    CJK_FONT  := Songti SC
     PANDOC    := pandoc
     RM_CMD    := rm -rvf
 else ifeq ($(OS),Windows_NT)

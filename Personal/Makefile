@@ -41,7 +41,7 @@ HTMLS := $(MD_BASES:=.html)
 GEOMETRY := -V geometry:margin=1in
 FONTSIZE := -V fontsize=12pt
 
-SUBDIRS := AI-Delivery General SRE-Infrastructure Technical-Support other
+SUBDIRS := AI-Delivery AI-Solutions-Architect General SRE-Infrastructure Solutions-Engineer-Architect other
 
 .PHONY: all pdf docx html clean clean-self clean-subdirs list help subdirs \
         $(SUBDIRS) $(addprefix clean-,$(SUBDIRS))
