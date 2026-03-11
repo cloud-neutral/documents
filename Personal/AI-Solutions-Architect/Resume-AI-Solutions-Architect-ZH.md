@@ -4,7 +4,7 @@
 - **姓名：** 潘海涛
 - **电话：** +86 13691175694
 - **所在地：** 中国上海
-- **邮箱：** manbuzhe2008@gmail.com
+- **邮箱：** haitaopanhq@gmail.com
 - **个人网站：** [www.svc.plus](https://www.svc.plus)
 - **LinkedIn：** [linkedin.com/in/haitaopan](https://www.linkedin.com/in/haitaopan)
 - **语言能力：** 中文（母语），英文（工作水平）
