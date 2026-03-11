@@ -296,17 +296,17 @@
 
 ## 开源项目
 
-**Cloud-Neutral AI-Infra Platform** — [github.com/CloudNativeSuite](https://github.com/CloudNativeSuite)
+**Cloud-Neutral AI-Infra Platform** — [github.com/cloud-neutral-toolkit](https://github.com/cloud-neutral-toolkit)
 开源的云中立解决方案框架，为 AI 与云原生落地提供参考实现。
 
-- **XControl：** Web 控制面板，集成可观测性与 RAG 智能助手。
-- **XCloudFlow：** 多云 IaC 与 GitOps 编排框架。
-- **XScopeHub：** 基于 Vector / OpenTelemetry / PGVector 的可观测与分析套件。
+- ** console.svc.plus：** Web 控制面板，集成可观测性与 RAG 智能助手。
+- ** accounts.svc.plus：** Identity Core: Handles registration, login, and session management.
+- 集成其他开源套件 Vector / OpenTelemetry / Postgresql （ PGVector 扩展） /Openclaw 
 
 **AI Coding 产出项目**
 
 - **Xstream：** macOS/iOS 智能代理应用，采用 Vibe Coding 模式开发。
-- **Xworkmate：** 企业协作与知识管理工具，AI 原生应用开发实践。
+- **Xworkmate：** 个人协作与管理工具，AI 原生应用开发实践。
 
 ---
 
