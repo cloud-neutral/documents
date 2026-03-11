@@ -296,17 +296,24 @@
 
 ## 开源项目
 
-**Cloud-Neutral AI-Infra Platform** — [github.com/cloud-neutral-toolkit](https://github.com/cloud-neutral-toolkit)
-开源的云中立解决方案框架，为 AI 与云原生落地提供参考实现。
 
-- ** console.svc.plus：** Web 控制面板，集成可观测性与 RAG 智能助手。
-- ** accounts.svc.plus：** Identity Core: Handles registration, login, and session management.
-- 集成其他开源套件 Vector / OpenTelemetry / Postgresql （ PGVector 扩展） /Openclaw 
+1. 开源项目：Cloud-Neutral AI-Infra Platform (独立开发)
+   
+- 项目链接： github.com/cloud-neutral-toolkit
+- 项目简介： 该项目是一个开源的云中立 AI 基础设施解决方案框架，旨在为 AI 与云原生应用的落地提供标准化的参考实现。通过构建去中心化、跨云可迁移的架构，消除供应商锁定，实现从 Idea 到生产环境的一站式全链路托管。
+- 核心组件： Console & Identity (console.svc.plus): 采用 Next.js + Go 架构开发的高性能 Web 控制面板，集成 AI 驱动的可观测性指标分析与 RAG (检索增强生成) 智能助手，支持全链路日志追踪。
+- 基础设施集成: 深度整合 PostgreSQL (PGVector) 向量存储、OpenTelemetry 遥测数据采集及 OpenClaw 网络套件，构建闭环的 AI 数据与运维底座。
 
-**AI Coding 产出项目**
+2. Xstream — 智能代理与加速应用 (macOS/iOS)
 
-- **Xstream：** macOS/iOS 智能代理应用，采用 Vibe Coding 模式开发。
-- **Xworkmate：** 个人协作与管理工具，AI 原生应用开发实践。
+- 技术亮点： 探索 Vibe Coding 开发模式，AI 辅助下快速迭代。
+- 功能描述： 海外网络访问加速客户端。提供系统级与应用级加速，跨平台支持
+
+3. XWorkmate — 全能 AI 原生协作助手 (Desktop)
+
+- 技术亮点： AI-Native 应用架构实践，重新定义人机交互 UI
+- 功能描述： 支持集成OpenClaw/Codex，代码生成、长文档分析、PPT 自动化产出及邮件智能处理的综合工作站客户端。
+- 核心特性： 支持多模型动态调度与 Agentic UI（任务型用户界面），用户可通过自然语言执行复杂的自动化工作流（如 Autopilot 运维任务、多维数据分析等）。
 
 ---
 
