@@ -4,3 +4,9 @@
 Personal/*.html
 interview-qa/EN/*.html
 .DS_Store
+
+# Obsidian 插件（包含密钥）
+.obsidian/plugins/*
+!.obsidian/plugins/github-sync/
+!.obsidian/plugins/obsidian-git/
+!.obsidian/plugins/notebook-navigator/
